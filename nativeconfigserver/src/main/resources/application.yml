@@ -1,0 +1,12 @@
+server:
+  port: 8730
+spring:
+  application:
+    name: nativeconfigserver
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:/shared

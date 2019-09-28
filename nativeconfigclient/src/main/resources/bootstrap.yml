@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: configclient
+  cloud:
+    config:
+      uri: http://localhost:8730
+      profiles: dev
+      fail-fast.  : true
+      name: conﬁgclient-dev
+#management:
+#  security:
+#    enabled: false
+#endpoints:
+#  refresh:
+#    enabled: true
